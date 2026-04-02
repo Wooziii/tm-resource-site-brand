@@ -2,7 +2,7 @@
 (function () {
   const root = document.documentElement;
   const storedTheme = localStorage.getItem('tm-theme');
-  if (storedTheme) root.setAttribute('data-theme', storedTheme);
+  root.setAttribute('data-theme', storedTheme || 'light');
 
   document.querySelectorAll('[data-theme-toggle]').forEach((btn) => {
     btn.addEventListener('click', () => {

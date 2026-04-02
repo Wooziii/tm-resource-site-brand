@@ -1,0 +1,30 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brand-bg" x1="120" y1="100" x2="1080" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081220"/>
+      <stop offset="0.52" stop-color="#111B31"/>
+      <stop offset="1" stop-color="#192743"/>
+    </linearGradient>
+    <radialGradient id="brand-gold" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(884 188) rotate(120) scale(280 310)">
+      <stop stop-color="#F7D18A" stop-opacity="0.44"/>
+      <stop offset="1" stop-color="#F7D18A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" rx="48" fill="url(#brand-bg)"/>
+  <rect width="1200" height="900" rx="48" fill="url(#brand-gold)"/>
+  <rect x="232" y="148" width="736" height="604" rx="46" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+  <rect x="302" y="226" width="596" height="306" rx="36" fill="rgba(255,255,255,0.08)"/>
+  <rect x="344" y="268" width="514" height="222" rx="30" fill="#F4F6FB"/>
+  <rect x="388" y="322" width="222" height="20" rx="10" fill="#0F2142"/>
+  <rect x="388" y="366" width="148" height="14" rx="7" fill="#6D7382"/>
+  <circle cx="734" cy="376" r="76" fill="#F7D18A"/>
+  <circle cx="734" cy="376" r="34" fill="#0F2142"/>
+  <path d="M734 278L756 334L816 338L770 376L786 434L734 402L682 434L698 376L652 338L712 334L734 278Z" fill="#0A84FF"/>
+  <rect x="302" y="578" width="222" height="110" rx="28" fill="rgba(255,255,255,0.08)"/>
+  <rect x="552" y="578" width="160" height="110" rx="28" fill="rgba(255,255,255,0.08)"/>
+  <rect x="742" y="578" width="156" height="110" rx="28" fill="rgba(255,255,255,0.08)"/>
+  <rect x="340" y="616" width="116" height="16" rx="8" fill="rgba(255,255,255,0.76)"/>
+  <rect x="340" y="652" width="146" height="12" rx="6" fill="rgba(255,255,255,0.28)"/>
+  <rect x="586" y="616" width="92" height="16" rx="8" fill="rgba(255,255,255,0.76)"/>
+  <rect x="776" y="616" width="84" height="16" rx="8" fill="rgba(255,255,255,0.76)"/>
+</svg>
