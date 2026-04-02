@@ -12,6 +12,31 @@
     });
   });
 
+  const siteHeader = document.querySelector('.site-header');
+  const menuToggle = document.querySelector('[data-menu-toggle]');
+  const closeMenu = () => {
+    if (!siteHeader || !menuToggle) return;
+    siteHeader.classList.remove('menu-open');
+    menuToggle.setAttribute('aria-expanded', 'false');
+    menuToggle.setAttribute('aria-label', '打开导航菜单');
+  };
+  if (siteHeader && menuToggle) {
+    menuToggle.addEventListener('click', () => {
+      const nextOpen = !siteHeader.classList.contains('menu-open');
+      siteHeader.classList.toggle('menu-open', nextOpen);
+      menuToggle.setAttribute('aria-expanded', String(nextOpen));
+      menuToggle.setAttribute('aria-label', nextOpen ? '关闭导航菜单' : '打开导航菜单');
+    });
+    siteHeader.querySelectorAll('.main-nav a, .header-actions a').forEach((link) => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 760) closeMenu();
+      });
+    });
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 760) closeMenu();
+    });
+  }
+
   const progress = document.getElementById('scrollProgress');
   const backTop = document.querySelector('[data-back-top]');
   const syncScroll = () => {
