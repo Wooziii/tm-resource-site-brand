@@ -1523,6 +1523,10 @@ html[data-theme='light'] .back-top {
     display: none;
   }
 
+  .hero-badges {
+    display: none;
+  }
+
   .brand-text strong,
   .brand-text em {
     white-space: nowrap;

@@ -75,7 +75,7 @@ window.SITE_DATA = {
     {
       "category": "官方阵地",
       "title": "官方网站",
-      "desc": "官方门户、报名入口与项目概览。",
+      "desc": "官方介绍、报名入口与成员计划信息。",
       "url": "https://cloud.tencent.com/developer/program/tm"
     },
     {
